@@ -1,5 +1,7 @@
 Magento VAdmin Theme
 =============
+
+[![Join the chat at https://gitter.im/clivewalkden/MagentoVAdmin](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/clivewalkden/MagentoVAdmin?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 <p>
 Replace the default theme of your admin cpanel by using V-Admin theme. <br />
 With black base color and great button set your website will look better.
