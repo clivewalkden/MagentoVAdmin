@@ -24,7 +24,7 @@
 					<show_in_default>1</show_in_default>
 					<show_in_website>1</show_in_website>
 					<show_in_store>1</show_in_store>
-					<fields>						
+					<fields>
 						<enabled>
 							<label>Enable V-Admin Theme</label>
 							<frontend_type>select</frontend_type>
@@ -83,7 +83,7 @@
 							<show_in_website>1</show_in_website>
 							<show_in_store>1</show_in_store>
 							<frontend_class>required-entry</frontend_class>
-							<comment>Click textbox to choose color</comment>						
+							<comment>Click textbox to choose color</comment>
 						</body_color>
 						<body_image>
 							<label>Body Background Image</label>
@@ -94,7 +94,7 @@
                             <sort_order>20</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
-                            <show_in_store>1</show_in_store>					
+                            <show_in_store>1</show_in_store>
 						</body_image>
 						<title_bg_color>
 							<label>Title Background Color</label>
@@ -105,7 +105,7 @@
 							<show_in_website>1</show_in_website>
 							<show_in_store>1</show_in_store>
 							<frontend_class>required-entry</frontend_class>
-							<comment>Click textbox to choose color</comment>						
+							<comment>Click textbox to choose color</comment>
 						</title_bg_color>
 						<button_color>
 							<label>Button Background Color</label>
@@ -116,7 +116,7 @@
 							<show_in_website>1</show_in_website>
 							<show_in_store>1</show_in_store>
 							<frontend_class>required-entry</frontend_class>
-							<comment>Click textbox to choose color</comment>						
+							<comment>Click textbox to choose color</comment>
 						</button_color>
 						<button_color_hover>
 							<label>Button Background Color Hover</label>
@@ -127,7 +127,7 @@
 							<show_in_website>1</show_in_website>
 							<show_in_store>1</show_in_store>
 							<frontend_class>required-entry</frontend_class>
-							<comment>Click textbox to choose color</comment>						
+							<comment>Click textbox to choose color</comment>
 						</button_color_hover>
                 	</fields>
 				</login>
@@ -159,7 +159,7 @@
 							<show_in_website>1</show_in_website>
 							<show_in_store>1</show_in_store>
 							<frontend_class>required-entry</frontend_class>
-							<comment>Click textbox to choose color</comment>						
+							<comment>Click textbox to choose color</comment>
 						</header_color>
 						<bg_image>
                             <label>Background Image</label>
@@ -412,7 +412,7 @@
 							<show_in_website>1</show_in_website>
 							<show_in_store>1</show_in_store>
 							<frontend_class>required-entry</frontend_class>
-							<comment>Click textbox to choose color</comment>						
+							<comment>Click textbox to choose color</comment>
 						</footer_bg_color>
 						<bg_image>
                             <label>Background Image</label>
@@ -491,10 +491,9 @@
 					<show_in_store>1</show_in_store>
 					<expanded>1</expanded>
 					<comment><![CDATA[
-                    The V-Admin Theme is developed and supported by <a href="http://www.vnecoms.com/" target="_blank">www.VnEcoms.com</a>.<br />
-					If you need any support or have any question please contact us at <a href="mailto:support@vnecoms.com">support@vnecoms.com</a> or submit a ticket at <a href="http://www.vnecoms.com/contacts/" target="_blank">http://www.vnecoms.com/contacts/</a><br /><br />
+                    The V-Admin Theme was developed by <a href="http://www.vnecoms.com/" target="_blank">www.VnEcoms.com</a>.<br /><br />
 					Best Regards,<br />
-					<strong>VnEcoms Team</strong>
+					<strong>SOZO Design</strong>
 					]]></comment>
 				</author>
 
