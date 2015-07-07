@@ -18,26 +18,26 @@
     		<action method="setTemplate" ifconfig="vadmin/config/enabled"><template>ves_vadmin/page/footer.phtml</template></action>
     	</reference>
 	</vnecoms_cp>
-	
+
 	<adminhtml_index_login>
 		<reference name="content">
 			<action method="setTemplate" ifconfig="vadmin/config/enabled"><template>ves_vadmin/login.phtml</template></action>
 		</reference>
 	</adminhtml_index_login>
-	
+
 	<adminhtml_index_forgotpassword>
 		<reference name="content">
 			<action method="setTemplate" ifconfig="vadmin/config/enabled"><template>ves_vadmin/forgotpassword.phtml</template></action>
 		</reference>
 	</adminhtml_index_forgotpassword>
-	
+
 	<adminhtml_system_config_edit>
 		<reference name="head">
         	<action method="addJs"><script>jscolor/jscolor.js</script></action>
     	</reference>
 	</adminhtml_system_config_edit>
-	
+
 	<adminhtml_vadmin_css_index>
-	 	 <block type="vadmin/color" name="root" output="toHtml" template="ves_vadmin/css.phtml" />  
+	 	 <block type="vadmin/color" name="root" output="toHtml" template="ves_vadmin/css.phtml" />
 	</adminhtml_vadmin_css_index>
 </layout>
