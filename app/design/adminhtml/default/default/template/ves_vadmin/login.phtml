@@ -53,12 +53,14 @@
     <!--[if lt IE 7]> <link rel="stylesheet" href="<?php echo $this->getSkinUrl('below_ie7.css') ?>" type="text/css" media="all" /> <![endif]-->
     <!--[if IE 7]> <link rel="stylesheet" href="<?php echo $this->getSkinUrl('ie7.css') ?>" type="text/css" media="all" /> <![endif]-->
 </head>
+<?php $logoUrl = Mage::getStoreConfig('vadmin/header/logo')?Mage::getBaseUrl('media').'ves_vadmin/'.Mage::getStoreConfig('vadmin/header/logo'):$this->getSkinUrl('images/logo.gif')?>
 <body id="page-login" onload="document.forms.loginForm.username.focus();" class="vnecoms-cp">
     <div class="login-container">
         <div class="login-box">
             <form method="post" action="" id="loginForm">
                 <div class="login-form">
                     <input name="form_key" type="hidden" value="<?php echo $this->getFormKey() ?>" />
+                    <img src="<?php echo $logoUrl?>" alt="<?php echo $this->__('Admin Logo') ?>" class="logo"/>
                     <h2><?php echo Mage::helper('adminhtml')->__('Log in to Admin Panel') ?></h2>
                     <div id="messages">
                         <?php echo $this->getMessagesBlock()->getGroupedHtml() ?>

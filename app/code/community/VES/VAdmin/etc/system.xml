@@ -1,16 +1,33 @@
 <?xml version="1.0"?>
+<!--
+/**
+ * Sozo_Homepage extension
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the MIT License
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/mit-license.php
+ *
+ * @category       Sozo
+ * @package        VES_VAdmin
+ * @copyright      Copyright (c) 2014
+ * @license        http://opensource.org/licenses/mit-license.php MIT License
+ */
+-->
 <config>
 	<tabs>
-		<ves translate="label">
-			<label>VnEcoms</label>
-			<sort_order>400</sort_order>
-		</ves>
+		<sozo translate="label">
+			<label>Sozo</label>
+			<sort_order>2000</sort_order>
+		</sozo>
 	</tabs>
 
 	<sections>
 		<vadmin translate="label" module="vadmin">
 			<label>V-Admin Theme</label>
-			<tab>ves</tab>
+			<tab>sozo</tab>
 			<frontend_type>text</frontend_type>
 			<sort_order>1</sort_order>
 			<show_in_default>1</show_in_default>
@@ -491,9 +508,8 @@
 					<show_in_store>1</show_in_store>
 					<expanded>1</expanded>
 					<comment><![CDATA[
-                    The V-Admin Theme was developed by <a href="http://www.vnecoms.com/" target="_blank">www.VnEcoms.com</a>.<br /><br />
-					Best Regards,<br />
-					<strong>SOZO Design</strong>
+                    The V-Admin Theme was originally developed by <a href="http://www.vnecoms.com/" target="_blank">www.VnEcoms.com</a>.<br />
+                    Now being developed by <a href="http://sozodesign.co.uk" target="_blank">sozodesign.co.uk</a><br /><br />
 					]]></comment>
 				</author>
 
