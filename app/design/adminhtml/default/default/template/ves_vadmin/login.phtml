@@ -57,10 +57,10 @@
 <body id="page-login" onload="document.forms.loginForm.username.focus();" class="vnecoms-cp">
     <div class="login-container">
         <div class="login-box">
+            <img src="<?php echo $logoUrl?>" alt="<?php echo $this->__('Admin Logo') ?>" class="logo"/>
             <form method="post" action="" id="loginForm">
                 <div class="login-form">
                     <input name="form_key" type="hidden" value="<?php echo $this->getFormKey() ?>" />
-                    <img src="<?php echo $logoUrl?>" alt="<?php echo $this->__('Admin Logo') ?>" class="logo"/>
                     <h2><?php echo Mage::helper('adminhtml')->__('Log in to Admin Panel') ?></h2>
                     <div id="messages">
                         <?php echo $this->getMessagesBlock()->getGroupedHtml() ?>

@@ -5,6 +5,7 @@
 .vnecoms-cp .header-right .super{margin-top: 4px;}
 
 .vnecoms-cp .columns{background-image: none;}
+.vnecoms-cp .notification-global{padding: 8px 27px 8px 47px; background-position: 27px 8px;}
 .vnecoms-cp .notification-global a{color: #EB5E00;}
 /*nav*/
 .vnecoms-cp .nav-bar{background: url(../images/bg.jpg);border: none;}
@@ -31,6 +32,8 @@
 .vnecoms-cp .filter input.input-text{padding: 2px;}
 .vnecoms-cp .select{height: 30px;}
 .vnecoms-cp .multiselect{height: 150px;}
+
+.vnecoms-cp table.actions td{vertical-align: middle;}
 
 /*button*/
 .vnecoms-cp button, .vnecoms-cp .form-button {background-color: #ffaa33;background-image: none;border: medium none;color: #FFFFFF;cursor: pointer;display: inline-block;font-size: 14px;line-height: 20px;margin-bottom: 3px;padding: 6px 12px;text-align: center;text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);vertical-align: middle;}
@@ -83,7 +86,8 @@
 /*Login Form*/
 #page-login.vnecoms-cp{background: #31302B;}
 .vnecoms-cp .login-container{padding: 0;background: none;width: auto;margin: 150px auto;}
-.vnecoms-cp .login-box {padding: 8px;background: #464541;border-radius: 4px;width: 400px;margin: 0 auto;}
+.vnecoms-cp .login-box {padding: 8px;background: #464541;border-radius: 4px;width: 400px;margin: 0 auto; position:relative;}
+#page-login.vnecoms-cp .logo {position: absolute;top: -60px;left: 62px;}
 .vnecoms-cp .login-form{margin: 0 auto;position:relative; background: #FFF; border: 1px solid #CDCDCD;padding:0 0 35px;border-radius: 3px;,-moz-border-radius: 3px;-webkit-border-radius: 3px;}
 .vnecoms-cp .login-form .input-box input.input-text{width: 214px;}
 .vnecoms-cp .login-form .messages{margin: 0 57px;}
