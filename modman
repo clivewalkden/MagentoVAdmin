@@ -6,3 +6,5 @@ app/design/adminhtml/default/default/layout/vnecoms                     app/desi
 app/design/adminhtml/default/default/template/ves_vadmin                app/design/adminhtml/default/default/template/ves_vadmin
 
 skin/adminhtml/default/default/ves_vadmin                               skin/adminhtml/default/default/ves_vadmin
+
+js/sozo/ves_admin/*                              						js/sozo/ves_vadmin/
