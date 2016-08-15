@@ -111,7 +111,7 @@
             	<footer_bg_color>2B2927</footer_bg_color>
             	<show_magento_ver>1</show_magento_ver>
             	<footer_text><![CDATA[You can put any HTML text here]]></footer_text>
-            	<footer_right_text><![CDATA[<a href="http://www.magentocommerce.com" id="footer_connect">Connect with the Magento Community</a><br>Magento™ is a trademark of Magento Inc.<br>Copyright © 2015 Magento Inc.]]></footer_right_text>
+            	<footer_right_text><![CDATA[<a href="http://www.magentocommerce.com" id="footer_connect">Connect with the Magento Community</a><br>Magento™ is a trademark of Magento Inc.<br>Copyright © 2016 Magento Inc.]]></footer_right_text>
             	<footer_text_color>E3E3E3</footer_text_color>
             	<footer_link_color>666666</footer_link_color>
             	<footer_link_color_hover>F77825</footer_link_color_hover>
