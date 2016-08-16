@@ -3,7 +3,7 @@ class Ves_Vadmin_Block_System_Config_Form_Fieldset_Extensions extends Mage_Admin
 {
     protected function _getElementHtml(Varien_Data_Form_Element_Abstract $element)
     {
-        $version = Mage::getConfig()->getModuleConfig("Ves_Vadmin")->version;
+        $version = Mage::getConfig()->getModuleConfig("VES_VAdmin")->version;
 
         return '<span class="notice">' . $version . '</span>';
     }
