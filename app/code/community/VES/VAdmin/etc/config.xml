@@ -2,7 +2,7 @@
 <config>
     <modules>
         <VES_VAdmin>
-            <version>1.0.2</version>
+            <version>1.0.3</version>
         </VES_VAdmin>
     </modules>
     <admin>
@@ -66,7 +66,7 @@
             </vadmin>
         </helpers>
     </global>
-   <default>
+    <default>
         <vadmin>
             <config>
                 <enabled>1</enabled>
@@ -75,24 +75,24 @@
             	<default_title>SOZO Magento Admin System</default_title>
             </head>
             <login>
-            	<body_color>31302B</body_color>
-            	<title_bg_color>F2672E</title_bg_color>
-            	<button_color>F2672E</button_color>
-            	<button_color_hover>CC560F</button_color_hover>
+            	<body_color>312845</body_color>
+            	<title_bg_color>E94054</title_bg_color>
+            	<button_color>E94054</button_color>
+            	<button_color_hover>E94054</button_color_hover>
             </login>
             <header>
-            	<header_color>2B2927</header_color>
+            	<header_color>312845</header_color>
                 <header_text_color>FFFFFF</header_text_color>
-                <header_link_color>666666</header_link_color>
-                <header_link_color_hover>F77825</header_link_color_hover>
+                <header_link_color>E94054</header_link_color>
+                <header_link_color_hover>E94054</header_link_color_hover>
                 <show_notifications>1</show_notifications>
             </header>
             <menu>
             	<bg_color>494949</bg_color>
-            	<item_level_0_hover_bg>2B2B2B</item_level_0_hover_bg>
+            	<item_level_0_hover_bg>312845</item_level_0_hover_bg>
             	<item_text_color>FFFFFF</item_text_color>
-            	<submenu_bg>2B2B2B</submenu_bg>
-            	<submenu_item_hover_bg>606060</submenu_item_hover_bg>
+            	<submenu_bg>312845</submenu_bg>
+            	<submenu_item_hover_bg>999999</submenu_item_hover_bg>
             	<show_help_link>1</show_help_link>
             </menu>
             <buttons>
@@ -108,13 +108,13 @@
             	<back_button_bg_color_hover>222222</back_button_bg_color_hover>
             </buttons>
             <footer>
-            	<footer_bg_color>2B2927</footer_bg_color>
+            	<footer_bg_color>312845</footer_bg_color>
             	<show_magento_ver>1</show_magento_ver>
             	<footer_text><![CDATA[You can put any HTML text here]]></footer_text>
-            	<footer_right_text><![CDATA[<a href="http://www.magentocommerce.com" id="footer_connect">Connect with the Magento Community</a><br>Magento™ is a trademark of Magento Inc.<br>Copyright © 2015 Magento Inc.]]></footer_right_text>
-            	<footer_text_color>E3E3E3</footer_text_color>
-            	<footer_link_color>666666</footer_link_color>
-            	<footer_link_color_hover>F77825</footer_link_color_hover>
+            	<footer_right_text><![CDATA[<a href="https://magento.com/" id="footer_connect">Connect with the Magento Community</a><br>Magento™ is a trademark of Magento Inc.<br>Copyright © 2016 Magento Inc.]]></footer_right_text>
+            	<footer_text_color>FFFFFF</footer_text_color>
+            	<footer_link_color>E94054</footer_link_color>
+            	<footer_link_color_hover>E94054</footer_link_color_hover>
             </footer>
         </vadmin>
     </default>

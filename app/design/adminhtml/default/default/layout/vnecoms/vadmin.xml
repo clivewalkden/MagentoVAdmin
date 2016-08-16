@@ -14,8 +14,8 @@
     		<action method="setTemplate"><template>ves_vadmin/page/head.phtml</template></action>
     		<action method="addCss" ifconfig="vadmin/config/enabled"><stylesheet>ves_vadmin/css/styles.css</stylesheet></action>
     		<action method="addCss" ifconfig="vadmin/config/enabled"><stylesheet>ves_vadmin/css/font-awesome.min.css</stylesheet></action>
-    		<action method="addJs" ifconfig="vadmin/config/enabled"><script>sozo/ves_admin/jquery.min.js</script></action>
-    		<action method="addJs" ifconfig="vadmin/config/enabled"><script>sozo/ves_admin/main.js</script></action>
+    		<action method="addJs" ifconfig="vadmin/config/enabled"><script>sozo/ves_vadmin/jquery.min.js</script></action>
+    		<action method="addJs" ifconfig="vadmin/config/enabled"><script>sozo/ves_vadmin/main.js</script></action>
     	</reference>
     	<reference name="footer">
     		<action method="setTemplate" ifconfig="vadmin/config/enabled"><template>ves_vadmin/page/footer.phtml</template></action>
