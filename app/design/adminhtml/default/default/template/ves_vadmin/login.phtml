@@ -29,10 +29,18 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title><?php echo Mage::helper('adminhtml')->__('Log into Admin Page') ?></title>
+    <!--
     <link type="text/css" rel="stylesheet" href="<?php echo $this->getSkinUrl('reset.css') ?>" media="all" />
     <link type="text/css" rel="stylesheet" href="<?php echo $this->getSkinUrl('boxes.css') ?>" media="all" />
     <link type="text/css" rel="stylesheet" href="<?php echo $this->getSkinUrl('ves_vadmin/css/font-awesome.min.css') ?>" media="all" />
     <link type="text/css" rel="stylesheet" href="<?php echo $this->getSkinUrl('ves_vadmin/css/styles.css') ?>" media="all" />
+    -->
+
+    <link type="text/css" rel="stylesheet" href="/skin/adminhtml/default/default/reset.css" media="all" />
+    <link type="text/css" rel="stylesheet" href="/skin/adminhtml/default/default/boxes.css" media="all" />
+    <link type="text/css" rel="stylesheet" href="/skin/adminhtml/default/default/ves_vadmin/css/font-awesome.min.css" media="all" />
+    <link type="text/css" rel="stylesheet" href="/skin/adminhtml/default/default/ves_vadmin/css/styles.css" media="all" />
+
     <style type="text/css">
 		#page-login.vnecoms-cp{background-color: #<?php echo Mage::getStoreConfig('vadmin/login/body_color');?>;<?php if($bodyBgImage = Mage::getStoreConfig('vadmin/login/body_image')):?>background-image: url(<?php echo Mage::getBaseUrl('media').'ves_vadmin/'.$bodyBgImage;?>);<?php endif;?>}
 		.vnecoms-cp .login-form h2{background-color: #<?php echo Mage::getStoreConfig('vadmin/login/title_bg_color');?>;}
