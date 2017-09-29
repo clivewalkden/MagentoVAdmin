@@ -8,9 +8,6 @@ With black base color and great button set your website will look better.
 
 ![V Admin Configuration](http://vnecoms.com/media/wysiwyg/vadmin/vadmin_configuration.jpg)
 
-## DEMO
-[Demo Link](http://demo.vnecoms.com/ves/theme/?ext=vadmin_theme)
-
 ## Installation Instructions
 #### Disable Compilation
 Log into the Magento Admin Panel and go to System, Tools, Compilation. Then, disable the compilation, this will let you run the compilation process again.
