@@ -2,6 +2,7 @@ Magento VAdmin Theme
 =============
 
 [![Join the chat at https://gitter.im/clivewalkden/MagentoVAdmin](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/clivewalkden/MagentoVAdmin?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fclivewalkden%2FMagentoVAdmin.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fclivewalkden%2FMagentoVAdmin?ref=badge_shield)
 
 Replace the default theme of your admin cpanel by using V-Admin theme.
 With black base color and great button set your website will look better.
@@ -37,3 +38,7 @@ Congratulations! After completing this last step, you will see your admin cpanel
 
 ## Change Log
 View the project [Change Log here](./CHANGELOG.md)
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fclivewalkden%2FMagentoVAdmin.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fclivewalkden%2FMagentoVAdmin?ref=badge_large)
