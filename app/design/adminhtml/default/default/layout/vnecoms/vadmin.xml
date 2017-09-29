@@ -5,6 +5,9 @@
 		<reference name="head">
 			<block type="vadmin/head" name="vadmin.head" />
 		</reference>
+		<reference name="notifications">
+			<remove name="notification_symlink" />
+		</reference>
 	</default>
 	<vnecoms_cp>
 		<reference name="root">

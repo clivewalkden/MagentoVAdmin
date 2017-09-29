@@ -59,7 +59,7 @@
 
 .vnecoms-cp button.save-and-continue{background-color: #006DDD;color: #FFFFFF;text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25)}
 .vnecoms-cp button.save-and-continue:hover{background-color: #0044BB;color: #FFFFFF;}
-.vnecoms-cp button.save-and-continue span{background-image: url(../images/save.png);padding-left: 20px;}
+.vnecoms-cp button.save-and-continue span{background-image: url('../images/save.png');padding-left: 20px;}
 
 .vnecoms-cp button.back {background-color: #363636;color: #FFFFFF;text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);}
 .vnecoms-cp button.back:hover{background-color: #222222;color: #FFFFFF;}
@@ -112,7 +112,8 @@
     width: 44px;
 }
 
-.vnecoms-cp .login-form input[type="text"], .vnecoms-cp .login-form input[type="password"] {
+.vnecoms-cp .login-form input[type="text"],
+.vnecoms-cp .login-form input[type="password"] {
     background: none repeat scroll 0 0 #F7F3EB;
     border: medium none;
     color: #777777;
@@ -125,7 +126,6 @@
     transition: color 0.3s ease-out 0s;
     width: 200px;
 }
-
 
 .vnecoms-cp .login-form input[type=text]:hover ~ i,
 .vnecoms-cp .login-form input[type=password]:hover ~ i {
