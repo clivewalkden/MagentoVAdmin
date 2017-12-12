@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
  * [\[Unreleased\]](#unreleased)
+ * [\[v1.0.6\] - 2017-12-12](#v106---2017-12-12)
  * [\[v1.0.5\] - 2017-09-29](#v105---2017-09-29)
  * [\[v1.0.4\] - 2016-12-08](#v104---2016-12-08)
  * [\[v1.0.3\] - 2016-08-16](#v103---2016-08-16)
@@ -15,7 +16,18 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Changed
 
+
+## [v1.0.6] - 2017-12-12
+
+### Fixed
+
  - Removed the demo link as it no longer works
+ - Styling of customer ajax fields (accordion)
+ 
+### Added
+ 
+ - Changed Admin module about area to be in-line with other SOZO extensions
+
 
 ## [v1.0.5] - 2017-09-29
 
@@ -28,6 +40,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 
  - [Change log](./CHANGELOG.md)
+ 
  
 ## [v1.0.4] - 2016-12-08
 

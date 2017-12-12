@@ -34,39 +34,13 @@
 			<show_in_website>1</show_in_website>
 			<show_in_store>1</show_in_store>
 			<groups>
-				<author>
-					<label>Author</label>
-					<frontend_type>text</frontend_type>
-					<sort_order>1</sort_order>
-					<show_in_default>1</show_in_default>
-					<show_in_website>1</show_in_website>
-					<show_in_store>1</show_in_store>
-					<expanded>1</expanded>
-					<comment><![CDATA[
-                    The V-Admin Theme was originally developed by <a href="http://www.vnecoms.com/" target="_blank">www.VnEcoms.com</a>.<br />
-                    Now being developed by <a href="http://sozodesign.co.uk" target="_blank">sozodesign.co.uk</a><br /><br />
-					]]></comment>
-					<fields>
-                        <version>
-                            <label>Version</label>
-                            <frontend_type>text</frontend_type>
-                            <sort_order>0</sort_order>
-                            <show_in_default>1</show_in_default>
-                            <show_in_website>1</show_in_website>
-                            <show_in_store>1</show_in_store>
-                            <frontend_model>vadmin/system_config_form_fieldset_extensions</frontend_model>
-                        </version>
-                        <!-- <user_guide>
-                            <label>Documentations</label>
-                            <frontend_type>text</frontend_type>
-                            <sort_order>1</sort_order>
-                            <show_in_default>1</show_in_default>
-                            <show_in_website>1</show_in_website>
-                            <show_in_store>1</show_in_store>
-                            <frontend_model>sozo_instagram/system_config_form_fieldset_documentations</frontend_model>
-                        </user_guide> -->
-                    </fields>
-				</author>
+				<about>
+                    <frontend_model>vadmin/adminhtml_about</frontend_model>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                </about>
 				<config>
 					<label>General</label>
 					<frontend_type>text</frontend_type>

@@ -1,10 +1,34 @@
-app/code/community/VES/VAdmin                                           app/code/community/VES/VAdmin
-
-app/etc/modules/VES_VAdmin.xml                                          app/etc/modules/VES_VAdmin.xml
-
-app/design/adminhtml/default/default/layout/vnecoms                     app/design/adminhtml/default/default/layout/vnecoms
-app/design/adminhtml/default/default/template/ves_vadmin                app/design/adminhtml/default/default/template/ves_vadmin
-
-skin/adminhtml/default/default/ves_vadmin                               skin/adminhtml/default/default/ves_vadmin
-
-js/sozo/ves_vadmin                              						js/sozo/ves_vadmin
+app/code/community/VES/VAdmin/Block/Adminhtml/About.php app/code/community/VES/VAdmin/Block/Adminhtml/About.php
+app/code/community/VES/VAdmin/Block/Color.php app/code/community/VES/VAdmin/Block/Color.php
+app/code/community/VES/VAdmin/Block/Head.php app/code/community/VES/VAdmin/Block/Head.php
+app/code/community/VES/VAdmin/controllers/Vadmin/CssController.php app/code/community/VES/VAdmin/controllers/Vadmin/CssController.php
+app/code/community/VES/VAdmin/etc/config.xml app/code/community/VES/VAdmin/etc/config.xml
+app/code/community/VES/VAdmin/etc/system.xml app/code/community/VES/VAdmin/etc/system.xml
+app/code/community/VES/VAdmin/Helper/Data.php app/code/community/VES/VAdmin/Helper/Data.php
+app/design/adminhtml/default/default/layout/vnecoms/vadmin.xml app/design/adminhtml/default/default/layout/vnecoms/vadmin.xml
+app/design/adminhtml/default/default/template/ves_vadmin/css.phtml app/design/adminhtml/default/default/template/ves_vadmin/css.phtml
+app/design/adminhtml/default/default/template/ves_vadmin/forgotpassword.phtml app/design/adminhtml/default/default/template/ves_vadmin/forgotpassword.phtml
+app/design/adminhtml/default/default/template/ves_vadmin/login.phtml app/design/adminhtml/default/default/template/ves_vadmin/login.phtml
+app/design/adminhtml/default/default/template/ves_vadmin/page/footer.phtml app/design/adminhtml/default/default/template/ves_vadmin/page/footer.phtml
+app/design/adminhtml/default/default/template/ves_vadmin/page/head.phtml app/design/adminhtml/default/default/template/ves_vadmin/page/head.phtml
+app/design/adminhtml/default/default/template/ves_vadmin/page/header.phtml app/design/adminhtml/default/default/template/ves_vadmin/page/header.phtml
+app/design/adminhtml/default/default/template/ves_vadmin/page/menu.phtml app/design/adminhtml/default/default/template/ves_vadmin/page/menu.phtml
+app/etc/modules/VES_VAdmin.xml app/etc/modules/VES_VAdmin.xml
+js/sozo/ves_vadmin/jquery.min.js js/sozo/ves_vadmin/jquery.min.js
+js/sozo/ves_vadmin/main.js js/sozo/ves_vadmin/main.js
+skin/adminhtml/default/default/ves_vadmin/css/font-awesome.min.css skin/adminhtml/default/default/ves_vadmin/css/font-awesome.min.css
+skin/adminhtml/default/default/ves_vadmin/css/styles.css skin/adminhtml/default/default/ves_vadmin/css/styles.css
+skin/adminhtml/default/default/ves_vadmin/font/FontAwesome/fontawesome-webfont.eot skin/adminhtml/default/default/ves_vadmin/font/FontAwesome/fontawesome-webfont.eot
+skin/adminhtml/default/default/ves_vadmin/font/FontAwesome/fontawesome-webfont.svg skin/adminhtml/default/default/ves_vadmin/font/FontAwesome/fontawesome-webfont.svg
+skin/adminhtml/default/default/ves_vadmin/font/FontAwesome/fontawesome-webfont.ttf skin/adminhtml/default/default/ves_vadmin/font/FontAwesome/fontawesome-webfont.ttf
+skin/adminhtml/default/default/ves_vadmin/font/FontAwesome/fontawesome-webfont.woff skin/adminhtml/default/default/ves_vadmin/font/FontAwesome/fontawesome-webfont.woff
+skin/adminhtml/default/default/ves_vadmin/font/FontAwesome/FontAwesome.otf skin/adminhtml/default/default/ves_vadmin/font/FontAwesome/FontAwesome.otf
+skin/adminhtml/default/default/ves_vadmin/images/add.png skin/adminhtml/default/default/ves_vadmin/images/add.png
+skin/adminhtml/default/default/ves_vadmin/images/back.png skin/adminhtml/default/default/ves_vadmin/images/back.png
+skin/adminhtml/default/default/ves_vadmin/images/bg.jpg skin/adminhtml/default/default/ves_vadmin/images/bg.jpg
+skin/adminhtml/default/default/ves_vadmin/images/config_tab_dt_bg.png skin/adminhtml/default/default/ves_vadmin/images/config_tab_dt_bg.png
+skin/adminhtml/default/default/ves_vadmin/images/delete.png skin/adminhtml/default/default/ves_vadmin/images/delete.png
+skin/adminhtml/default/default/ves_vadmin/images/down_arrow.png skin/adminhtml/default/default/ves_vadmin/images/down_arrow.png
+skin/adminhtml/default/default/ves_vadmin/images/reset.png skin/adminhtml/default/default/ves_vadmin/images/reset.png
+skin/adminhtml/default/default/ves_vadmin/images/save.png skin/adminhtml/default/default/ves_vadmin/images/save.png
+skin/adminhtml/default/default/ves_vadmin/images/up_arrow.png skin/adminhtml/default/default/ves_vadmin/images/up_arrow.png
