@@ -2,7 +2,7 @@
 <config>
     <modules>
         <VES_VAdmin>
-            <version>1.0.5</version>
+            <version>1.0.6</version>
         </VES_VAdmin>
     </modules>
     <admin>

@@ -1,18 +1,22 @@
 {
-    "name":"clivewalkden/MagentoVAdmin",
-    "description":"Magento Extension to customize admin interface",
-    "keywords":[ "clivewalkden", "magento admin theme", "magento"],
-    "minimum-stability":"dev",
-    "type":"magento-module",
-    "license":"OSL-3.0",
-    "homepage":"https://github.com/clivewalkden/MagentoVAdmin",
+    "name": "clivewalkden/MagentoVAdmin",
+    "description": "Magento Extension to customize admin interface",
+    "keywords": [
+        "clivewalkden",
+        "magento admin theme",
+        "magento"
+    ],
+    "minimum-stability": "dev",
+    "type": "magento-module",
+    "license": "OSL-3.0",
+    "homepage": "https://github.com/clivewalkden/MagentoVAdmin",
     "repositories": [
         {
             "type": "vcs",
             "url": "git@github.com/clivewalkden/MagentoVAdmin.git"
         }
     ],
-    "authors":[
+    "authors": [
         {
             "name": "Clive Walkden",
             "email": "clive@sozodesign.co.uk"
